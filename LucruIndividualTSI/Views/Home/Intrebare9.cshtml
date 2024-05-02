@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Intrebare9";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model LucruIndividualTSI.Model
+
+<form action="@Url.Action("Intrebare9", "Home")" method="post">
+     <div id="outerBox">
+          <div id="quest">Sunt folosite parole puternice pentru toate conturile de utilizator?</div>
+          <div style="text-align: center; padding: 20px;">
+               <input type="submit" name="response" value="Da" style="background-color: #4CAF50; color: white; padding: 40px 70px; text-align: center; text-decoration: none; display: inline-block; font-size: 32px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
+               <input type="submit" name="response" value="Nu" style="background-color: #4CAF50; color: white; padding: 40px 70px; text-align: center; text-decoration: none; display: inline-block; font-size: 32px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
+          </div>
+     </div>
+</form>

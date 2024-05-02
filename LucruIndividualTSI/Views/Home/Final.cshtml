@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Final Results";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Quiz Results</title>
+     <style>
+          body {
+               font-family: 'Arial', sans-serif;
+               background-color: #f4f4f9;
+               margin: 0;
+               padding: 20px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 100vh;
+          }
+
+          .results-container {
+               text-align: center;
+               background: white;
+               padding: 20px;
+               border-radius: 8px;
+               box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+               width: 300px;
+          }
+
+          .results-title, .results-score, .results-message {
+               color: #333;
+               font-size: 24px;
+               margin-bottom: 20px;
+          }
+
+          .results-score {
+               color: #4CAF50;
+               font-size: 20px;
+               margin-bottom: 10px;
+          }
+
+          .results-message {
+               color: #666;
+               font-size: 16px;
+          }
+     </style>
+</head>
+<body>
+     <div class="results-container">
+          <div class="results-title">Quiz Results</div>
+          <div class="results-score">Score: @Model.Score%</div>
+          <div class="results-score">Yes Answers: @Model.CounterYes</div>
+          <div class="results-score">No Answers: @Model.CounterNo</div>
+          <div class="results-message">Great job! Keep up the good work.</div>
+     </div>
+</body>
+</html>

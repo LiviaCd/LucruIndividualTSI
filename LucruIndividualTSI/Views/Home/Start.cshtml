@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Start";
+}
+@model LucruIndividualTSI.Model
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <link rel="stylesheet" href="~/Content/style.css">
+     <meta charset="UTF-8">
+     <title>Sistem de management al securității informaționale</title>
+
+</head>
+<body>
+     <header>
+          @using (Html.BeginForm("Start", "Home", FormMethod.Post, new { @class = "form-container" }))
+          {
+          <label for="Name">Introduceți numele companiei:</label>
+          @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Name", maxlength = "30" })
+          @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+          }
+     </header>
+     
+
+     <a href="@Url.Action("Intrebare1", "Home")">
+          <button type="submit" id="start">Începe testul</button>
+     </a>
+
+
+     <div id="quest">Întrebările vor apărea aici, va trebui să alegi „Da” sau „Nu”</div>
+     <button id="answerT">Da</button>
+     <button id="answerF">Nu</button>
+     </div>
+     <div id="points">Score: 0</div>
+     <div id="category">Categorie: Securitate</div>
+</body>
+</html>
+
+
