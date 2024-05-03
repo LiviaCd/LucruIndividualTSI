@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\views\\home\\start.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:views\\home\\start.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|c:\\users\\user\\desktop\\mrstweb\\lucruindividualtsi\\lucruindividualtsi\\views\\home\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:views\\home\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|c:\\users\\user\\desktop\\mrstweb\\lucruindividualtsi\\lucruindividualtsi\\views\\home\\intrebare1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:views\\home\\intrebare1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|c:\\users\\user\\desktop\\mrstweb\\lucruindividualtsi\\lucruindividualtsi\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|c:\\users\\user\\desktop\\mrstweb\\lucruindividualtsi\\lucruindividualtsi\\views\\home\\final.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\views\\home\\final.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:views\\home\\final.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|c:\\users\\user\\desktop\\mrstweb\\lucruindividualtsi\\lucruindividualtsi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|c:\\users\\user\\desktop\\mrstweb\\lucruindividualtsi\\lucruindividualtsi\\views\\home\\start.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:views\\home\\start.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\views\\home\\intrebare1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:views\\home\\intrebare1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4903A824-2802-4B69-A97D-63D5521B9687}|LucruIndividualTSI.csproj|solutionrelative:model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Views\\Home\\Review.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Review.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Views\\Home\\Review.cshtml",
+              "RelativeToolTip": "Views\\Home\\Review.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T19:56:04.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Intrebare1.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Views\\Home\\Intrebare1.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Intrebare1.cshtml",
@@ -46,38 +63,37 @@
               "RelativeToolTip": "Views\\Home\\Intrebare1.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T11:44:34.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T11:44:34.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "ViewState": "AQIAAAwCAAAAAAAAAAAAABkCAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T10:23:02.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Final.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Views\\Home\\Final.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Final.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Views\\Home\\Final.cshtml",
               "RelativeToolTip": "Views\\Home\\Final.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAABRAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-03T10:22:08.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Model.cs",
               "RelativeDocumentMoniker": "Model.cs",
@@ -85,31 +101,30 @@
               "RelativeToolTip": "Model.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAqwAwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:21:52.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T10:21:52.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Start.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Views\\Home\\Start.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Start.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Views\\Home\\Start.cshtml",
               "RelativeToolTip": "Views\\Home\\Start.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAswDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-02T14:17:35.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Content\\style.css",
               "RelativeDocumentMoniker": "Content\\style.css",
               "ToolTip": "C:\\Users\\User\\Desktop\\MRSTWeb\\LucruIndividualTSI\\LucruIndividualTSI\\Content\\style.css",
               "RelativeToolTip": "Content\\style.css",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAALsAAAAaAAAA",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAHQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-02T14:17:35.505Z",
               "EditorCaption": ""

@@ -535,5 +535,12 @@ namespace LucruIndividualTSI.Controllers
             return View(model);
         }
 
+        public ActionResult Review()
+        {
+            return View(new Model());
+        }
+
+        
+
     }
 }

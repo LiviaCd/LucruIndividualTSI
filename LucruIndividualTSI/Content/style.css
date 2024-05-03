@@ -115,14 +115,33 @@ header {
 }
 
 #start {
-	font-size: 20px;
-	position: relative;
-	background-color: #4CAF50;
-	border: none;
-	color: #FFFFFF;
 	padding: 10px 20px;
-	width: 150px;
-	text-align: center;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition-duration: 1s; /* Safari */
+	transition-duration: 1s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-animation-name: changecolour; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+	animation-name: changecolour;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+
+}
+
+#review {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
 	-webkit-transition-duration: 1s; /* Safari */
 	transition-duration: 1s;
 	text-decoration: none;
@@ -290,49 +309,4 @@ header {
 	margin-top: 5%;
 }
 
-#previous {
-	background-color: #4CAF50;
-	border: none;
-	font-size: 16px;
-	color: #FFFFFF;
-	padding: 10px 20px;
-	width: 150px;
-	position: relative;
-	text-align: center;
-	-webkit-transition-duration: 0.4s; /* Safari */
-	transition-duration: 0.4s;
-	text-decoration: none;
-	overflow: hidden;
-	cursor: pointer;
-	-webkit-animation-name: changecolour; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-	-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-	animation-name: changecolour;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-	margin-top: 5%;
-}
 
-#next {
-	background-color: #4CAF50;
-	border: none;
-	font-size: 16px;
-	color: #FFFFFF;
-	padding: 10px 20px;
-	width: 150px;
-	position: relative;
-	text-align: center;
-	-webkit-transition-duration: 0.4s; /* Safari */
-	transition-duration: 0.4s;
-	text-decoration: none;
-	overflow: hidden;
-	cursor: pointer;
-	-webkit-animation-name: changecolour; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-	-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-	animation-name: changecolour;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-	margin-left: 40%;
-	margin-top: 5%;
-}

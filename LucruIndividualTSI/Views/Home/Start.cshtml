@@ -38,9 +38,20 @@
             color: white;
             border: none;
             border-radius: 5px;
-            cursor: pointer;
+            -webkit-transition-duration: 1s; /* Safari */
+            transition-duration: 1s;
             text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            -webkit-animation-name: changecolour; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+            -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation-name: changecolour;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
         }
+
+        
 
         
     </style>

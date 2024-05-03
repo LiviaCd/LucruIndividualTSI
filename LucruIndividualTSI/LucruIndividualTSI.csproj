@@ -127,6 +127,7 @@
     <Content Include="Views\Home\Intrebare15.cshtml" />
     <Content Include="Views\Home\Final.cshtml" />
     <None Include="Views\Home\Intrebare4.cshtml" />
+    <Content Include="Views\Home\Review.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

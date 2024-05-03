@@ -4,53 +4,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <title>Quiz Results</title>
-     <style>
-         body {
-             background-color: #f2f7f2;
-             margin: 0;
-             padding: 20px;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             height: 100vh;
-         }
+    <link rel="stylesheet" href="~/Content/style.css">
+    <meta charset="UTF-8">
+    <title>Quiz Results</title>
+    <style>
+        body {
+            background-color: #f2f7f2;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-          .results-container {
-               text-align: center;
-               background: white;
-               padding: 20px;
-               border-radius: 8px;
-               box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-               width: 300px;
-          }
+        .results-container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+        }
 
-          .results-title, .results-score, .results-message {
-               color: #333;
-               font-size: 24px;
-               margin-bottom: 20px;
-          }
+        .results-title, .results-score, .results-message {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
 
-          .results-score {
-               color: #4CAF50;
-               font-size: 20px;
-               margin-bottom: 10px;
-          }
+        .results-score {
+            color: #4CAF50;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
 
-          .results-message {
-               color: #666;
-               font-size: 16px;
-          }
-     </style>
+        .results-message {
+            color: #666;
+            font-size: 16px;
+        }
+
+        #review {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            -webkit-transition-duration: 1s; /* Safari */
+            transition-duration: 1s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            -webkit-animation-name: changecolour; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+            -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation-name: changecolour;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+    </style>
 </head>
 <body>
-     <div class="results-container">
-          <div class="results-title">Rezultatul testului</div>
-          <div class="results-score">Score: @Model.Score%</div>
-          <div class="results-score">Răspunsuri pozitive: @Model.CounterYes</div>
-          <div class="results-score">Răspunzuri negative: @Model.CounterNo</div>
-          <div class="results-message">Acesta este nivelul de securitate a companiei @Session["Name"] !</div>
-     </div>
+    <div class="results-container">
+        <div class="results-title">Rezultatul testului</div>
+        <div class="results-score">Nivelul de securitate: @Model.Score%</div>
+        <div class="results-score">Răspunsuri pozitive: @Model.CounterYes</div>
+        <div class="results-score">Răspunzuri negative: @Model.CounterNo</div>
+        <div class="results-message">Acesta este nivelul de securitate a companiei @Session["Name"] !</div>
+        <div class="container">
+            <a href="@Url.Action("Review", "Home")">
+                <button type="submit" id="review">Review</button>
+            </a>
+        </div>
+    </div>
+
+    
 </body>
 </html>
