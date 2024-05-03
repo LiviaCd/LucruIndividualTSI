@@ -1,15 +1,22 @@
 ﻿@{
     ViewBag.Title = "Intrebare8";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+ 
 }
 @model LucruIndividualTSI.Model
+<style>
+    body {
+        font-size: 12px;
+        background-color: #639c60;
+        color: ghostwhite;
+    }
+</style>
 
 <form action="@Url.Action("Intrebare8", "Home")" method="post">
-     <div id="outerBox">
-          <div id="quest">Compania are un plan de răspuns la incidente de securitate?</div>
-          <div style="text-align: center; padding: 20px;">
-               <input type="submit" name="response" value="Da" style="background-color: #4CAF50; color: white; padding: 40px 70px; text-align: center; text-decoration: none; display: inline-block; font-size: 32px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
-               <input type="submit" name="response" value="Nu" style="background-color: #4CAF50; color: white; padding: 40px 70px; text-align: center; text-decoration: none; display: inline-block; font-size: 32px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
-          </div>
-     </div>
+    <div id="outerBox">
+        <div id="quest">Compania are un plan de răspuns la incidente de securitate?</div>
+        <div style="text-align: center; padding: 20px;">
+            <input type="submit" name="response" value="Da" style="background-color: #4CAF50; color: ghostwhite; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 24px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
+            <input type="submit" name="response" value="Nu" style="background-color: #4CAF50; color: ghostwhite; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 24px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
+        </div>
+    </div>
 </form>

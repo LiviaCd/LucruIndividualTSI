@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using System.Web.Mvc;
 
 namespace LucruIndividualTSI.Controllers
@@ -484,10 +485,55 @@ namespace LucruIndividualTSI.Controllers
                Session["Model"] = model;
                return RedirectToAction("Final");
           }
-          public ActionResult Final()
-          {
-               var model = (Session["Model"] as Model) ?? new Model();
-               return View(model);
-          }
-     }
+        /*
+        [HttpPost]
+        public ActionResult Final(Model model)
+        {
+            model = Session["Model"] as Model;
+            if (model == null)
+            {
+                model = new Model();
+            }
+            Session["Model"] = model;
+            int yesResponse = model.CounterYes;
+            double score =(double) (yesResponse * 100) / 15;
+            model.Score = score;
+
+            
+            return View(model);
+        }
+        */
+       
+        public ActionResult Final()
+        {
+            var model = (Session["Model"] as Model) ?? new Model();
+            if (model == null)
+            {
+                model = new Model();
+            }
+            int yesResponse = model.CounterYes;
+            double score = (double)(yesResponse * 100) / 15;
+            model.Score = score;
+
+            Session["Model"] = model;
+            if (Session["Name"] != null)
+            {
+                model.Name = Session["Name"].ToString();
+            }
+            return View(model);
+        }
+        [HttpPost]
+        public ActionResult Final(Model model)
+        {
+            model = (Session["Model"] as Model) ?? new Model();
+
+            if (Session["Name"] != null)
+            {
+                model.Name = Session["Name"].ToString();
+            }
+
+            return View(model);
+        }
+
+    }
 }

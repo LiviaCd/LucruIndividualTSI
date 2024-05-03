@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Start";
 }
 @model LucruIndividualTSI.Model
@@ -7,34 +6,67 @@
 <html lang="en">
 
 <head>
-     <link rel="stylesheet" href="~/Content/style.css">
-     <meta charset="UTF-8">
-     <title>Sistem de management al securității informaționale</title>
+    <link rel="stylesheet" href="~/Content/style.css">
+    <meta charset="UTF-8">
+    <title>Sistem de management al securității informaționale</title>
 
+    <style>
+        body {
+            font-size: 12px;
+            background-color: #deeade;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            color: #263c25
+        }
+
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        #start {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        
+    </style>
 </head>
+
 <body>
-     <header>
-          @using (Html.BeginForm("Start", "Home", FormMethod.Post, new { @class = "form-container" }))
-          {
-          <label for="Name">Introduceți numele companiei:</label>
-          @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Name", maxlength = "30" })
-          @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
-          }
-     </header>
-     
+    <header>
+        <h1 style="font-size: 30px; font: Quicksand ">Sistem de management al securității informaționale</h1>
+        <p>Testează nivelul de securitate!</p>
+        @using (Html.BeginForm("Start", "Home", FormMethod.Post, new { @class = "form-container" }))
+        {
+            <label for="Name" style="font-size: 16px; color: #263c25;">Introduceți numele companiei:</label>
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Company name", maxlength = "30", style = "padding: 10px; width: 300px; border-radius: 5px; border: 1px solid #ccc;" })
+            @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger", style = "font-size: 12px;" })
 
-     <a href="@Url.Action("Intrebare1", "Home")">
-          <button type="submit" id="start">Începe testul</button>
-     </a>
+        }
+    </header>
 
+    <div class="container">
+        <a href="@Url.Action("Intrebare1", "Home")">
+            <button type="submit" id="start">Începe testul</button>
+        </a>
+    </div>
 
-     <div id="quest">Întrebările vor apărea aici, va trebui să alegi „Da” sau „Nu”</div>
-     <button id="answerT">Da</button>
-     <button id="answerF">Nu</button>
-     </div>
-     <div id="points">Score: 0</div>
-     <div id="category">Categorie: Securitate</div>
+    <div id="points">Score: 0</div>
+    <!-- <div id="category">Categorie: Securitate</div> -->
 </body>
+
 </html>
-
-

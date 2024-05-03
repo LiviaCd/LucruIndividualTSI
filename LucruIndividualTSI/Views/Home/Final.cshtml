@@ -7,16 +7,15 @@
      <meta charset="UTF-8">
      <title>Quiz Results</title>
      <style>
-          body {
-               font-family: 'Arial', sans-serif;
-               background-color: #f4f4f9;
-               margin: 0;
-               padding: 20px;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               height: 100vh;
-          }
+         body {
+             background-color: #f2f7f2;
+             margin: 0;
+             padding: 20px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 100vh;
+         }
 
           .results-container {
                text-align: center;
@@ -47,11 +46,11 @@
 </head>
 <body>
      <div class="results-container">
-          <div class="results-title">Quiz Results</div>
+          <div class="results-title">Rezultatul testului</div>
           <div class="results-score">Score: @Model.Score%</div>
-          <div class="results-score">Yes Answers: @Model.CounterYes</div>
-          <div class="results-score">No Answers: @Model.CounterNo</div>
-          <div class="results-message">Great job! Keep up the good work.</div>
+          <div class="results-score">Răspunsuri pozitive: @Model.CounterYes</div>
+          <div class="results-score">Răspunzuri negative: @Model.CounterNo</div>
+          <div class="results-message">Acesta este nivelul de securitate a companiei @Session["Name"] !</div>
      </div>
 </body>
 </html>
