@@ -8,14 +8,40 @@
         background-color: #263c25;
         color: ghostwhite;
     }
+    
 </style>
-
+<link rel="stylesheet" type="text/css" href="~/Content/stylePage.css">
 <form action="@Url.Action("Intrebare15", "Home")" method="post">
-    <div id="outerBox">
-        <div id="quest">Sunt utilizate firewall-uri și sisteme de prevenire a intruziunilor?</div>
-        <div style="text-align: center; padding: 20px;">
-            <input type="submit" name="response" value="Da" style="background-color: #4CAF50; color: ghostwhite; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 24px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
-            <input type="submit" name="response" value="Nu" style="background-color: #4CAF50; color: ghostwhite; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 24px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
-        </div>
-    </div>
+     <div id="outerBox">
+          <div id="quest">Sunt utilizate firewall-uri și sisteme de prevenire a intruziunilor?</div>
+          <div style="text-align: center; padding: 20px;">
+               <input type="submit" name="response" value="Da" style="background-color: #4CAF50; color: ghostwhite; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 24px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
+               <input type="submit" name="response" value="Nu" style="background-color: #4CAF50; color: ghostwhite; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 24px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" />
+          </div>
+          @if (ViewData["ConfirmationMessageSucces"] != null)
+{
+          <div class="alert alert-success">
+               @foreach (var line in ViewData["ConfirmationMessageSucces"].ToString().Split('\n'))
+        {
+               <p>@line</p>
+        }
+          </div>
+}
+else if (ViewData["ConfirmationMessageInsucces"] != null)
+{
+          <div class="alert alert-isuccess">
+               @foreach (var line in ViewData["ConfirmationMessageInsucces"].ToString().Split('\n'))
+        {
+               <p>@line</p>
+        }
+          </div>
+}
+
+
+          <div class="button-container">
+               <a href="@Url.Action("Final", "Home")">
+                    <button type="button" id="next">Înainte</button>
+               </a>
+          </div>
+     </div>
 </form>
